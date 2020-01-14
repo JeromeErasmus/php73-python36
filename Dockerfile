@@ -1,7 +1,3 @@
-# This is the build file for creating the PHP and Python build container
-# You can buildan image from this Dockerfile by running:
-# docker build -t jeromeerasmus/php73-python36 .
-
 FROM php:7.3.13-apache-stretch
 
 RUN apt update && apt -y upgrade
