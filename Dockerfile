@@ -20,3 +20,4 @@ RUN ls -la
 RUN bash Python-3.6.4/configure --enable-optimizations
 RUN make -j 8
 RUN make altinstall
+RUN apt install python3-pip -y
