@@ -1,11 +1,3 @@
-# This is the build file for creating the PHP and Python build container
-# You can buildan image from this Dockerfile by running:
-
-```
-docker build -t jeromeerasmus/php73-python36 .
-```
-
-
 # Docker PHP 7.3 and Python 3.6
 
 [![](https://imagelayers.io/badge/jeromeerasmus/php73-python36:latest.svg)](https://imagelayers.io/?images=jeromeerasmus/php73-python36:latest 'Get your own badge on imagelayers.io')
